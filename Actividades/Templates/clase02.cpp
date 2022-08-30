@@ -59,7 +59,9 @@ int main() {
 
     */
 
-   List<string> list;
+   List<vector<int> > list;
+   vector<int> list1={1,2,3,4,5};
+   vector<int> list2={6,7,8,9,10};
    list.add("B");
    list.add("A");
    list.print();
