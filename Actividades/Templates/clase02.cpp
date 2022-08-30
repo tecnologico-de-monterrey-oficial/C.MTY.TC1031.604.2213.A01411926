@@ -3,7 +3,9 @@
 #include <wchar.h>
 #include <locale.h>
 #include <stdlib.h>
+#include<vector>
 using namespace std;
+#include"List.h"
 
 int sumInt(int n1, int n2, int n3) {
         return n1+n2+n3;
@@ -33,7 +35,7 @@ int main() {
     //Vas a recibir los 3 números de parámetros
     //1 función con enteros, 1 función con double, 1 función punto flotante
     //sumInt, sumDouble, sumFloat
-    
+    /*
     int a = 1;
     int b = 2;
     int c = 3;
@@ -55,6 +57,11 @@ int main() {
     cout<<"La suma String de a+b+c es: "<<sumString(a4,b4,c4)<<endl;
     cout<<"La suma String Anything de a+b+c es: "<<sumAnything(a4,b4,c4)<<endl;
 
+    */
 
+   List<string> list;
+   list.add("B");
+   list.add("A");
+   list.print();
     return EXIT_SUCCESS;
 }
