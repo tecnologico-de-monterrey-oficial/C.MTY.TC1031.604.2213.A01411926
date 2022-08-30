@@ -2,9 +2,13 @@
 using namespace std;
 
 int main()
-{
+{   
+
+    string coso;
     
+    cout<<"Di hola"<<endl;
+    cin>>coso;
     
-    cout<<"Hello World"<<endl;
+    cout<<coso<<endl;
     return 0;
 }
