@@ -28,8 +28,6 @@ int main()
         list[3] = 50;
         aux = list.getData(3);
         cout << "el dato en la posición 3 es: " << aux << endl;
-        // list.findData(60);
-        // cout << "el dato se encuentra en el índice: " << index << endl;
         list.deleteAt(3);
         list.deleteAt(0);
         list.print();
