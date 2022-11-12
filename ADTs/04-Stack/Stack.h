@@ -57,4 +57,5 @@ template<class T>
 bool Stack<T>::isEmpty() {
     return size == 0;
 }
+
 #endif
